@@ -25,7 +25,7 @@ const About = () => {
             <p>
               Currently pursuing a Software Development Diploma at the Southern
               Alberta Institute of Technology (SAIT) in Calgary, AB, I am set to
-              graduate in December 2024. My educational journey also includes
+              graduate in August 2024. My educational journey also includes
               specialized training in Full Stack Web Development, Java, and
               C/C++ programming from renowned institutes in Bathinda, Punjab,
               India.
