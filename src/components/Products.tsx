@@ -8,18 +8,6 @@ import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
 
-import todo1 from "public/images/todo1.png";
-import todo2 from "public/images/todo2.png";
-import mdEditor1 from "public/images/mdeditor1.png";
-import mdEditor2 from "public/images/mdeditor2.png";
-import fileManager1 from "public/images/filemanager1.png";
-import fileManager2 from "public/images/filemanager2.png";
-import fileSorting1 from "public/images/filesorting1.png";
-import fileSorting2 from "public/images/filesorting2.png";
-import gameDiscount1 from "public/images/gamediscount1.png";
-import gameDiscount2 from "public/images/gamediscount2.png";
-import gameDiscount3 from "public/images/gamediscount3.png";
-
 export const Products = () => {
   return (
     <div>
