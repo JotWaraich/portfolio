@@ -10,8 +10,6 @@
 // import gameDiscount2 from "public/images/gamediscount2.png";
 // import gameDiscount3 from "public/images/gamediscount3.png";
 
-import Image from "next/image";
-
 export const products = [
   {
     href: "https://github.com/JotWaraich/C-QT-Todo",
@@ -78,8 +76,8 @@ export const products = [
     github: true,
     title: "Markdown Editor",
     description: "A simple markdown editor built with Python and PyQt5.",
-    thumbnail: "/images/mdeditor1.png",
-    images: ["/images/mdeditor1.png", "/images/mdeditor2.png"],
+    thumbnail: "/images/mdEditor1.png",
+    images: ["/images/mdEditor1.png", "/images/mdEditor2.png"],
     stack: ["Python", "PyQT5"],
     slug: "markdown-editor",
     content: (
@@ -135,8 +133,8 @@ export const products = [
     github: true,
     title: "File Manager",
     description: "A simple file manager built with Python and PyQt5.",
-    thumbnail: "/images/filemanager1.png",
-    images: ["/images/filemanager1.png", "/images/filemanager2.png"],
+    thumbnail: "/images/fileManager1.png",
+    images: ["/images/fileManager1.png", "/images/fileManager2.png"],
     stack: ["Python", "PyQT5"],
     slug: "file-manager",
     content: (
@@ -204,8 +202,8 @@ export const products = [
     github: true,
     title: "File Sorting",
     description: "A simple file sorting app built with Python.",
-    thumbnail: "/images/filesorting1.png",
-    images: ["/images/filesorting1.png", "/images/filesorting2.png"],
+    thumbnail: "/images/fileSorting1.png",
+    images: ["/images/fileSorting1.png", "/images/fileSorting2.png"],
     stack: ["Python"],
     slug: "file-sorting",
     content: (
@@ -279,11 +277,11 @@ export const products = [
     title: "Game Discount",
     description:
       "A game discount tracking app built with Next.js and Tailwind CSS.",
-    thumbnail: "/images/gamediscount1.png",
+    thumbnail: "/images/gameDiscount1.png",
     images: [
-      "/images/gamediscount1.png",
-      "/images/gamediscount2.png",
-      "/images/gamediscount3.png",
+      "/images/gameDiscount1.png",
+      "/images/gameDiscount2.png",
+      "/images/gameDiscount3.png",
     ],
     stack: ["Next.js", "Tailwind CSS"],
     slug: "game-discount",
