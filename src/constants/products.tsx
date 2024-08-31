@@ -1,14 +1,16 @@
-import todo1 from "public/images/todo1.png";
-import todo2 from "public/images/todo2.png";
-import mdEditor1 from "public/images/mdeditor1.png";
-import mdEditor2 from "public/images/mdeditor2.png";
-import fileManager1 from "public/images/filemanager1.png";
-import fileManager2 from "public/images/filemanager2.png";
-import fileSorting1 from "public/images/filesorting1.png";
-import fileSorting2 from "public/images/filesorting2.png";
-import gameDiscount1 from "public/images/gamediscount1.png";
-import gameDiscount2 from "public/images/gamediscount2.png";
-import gameDiscount3 from "public/images/gamediscount3.png";
+// import todo1 from "public/images/todo1.png";
+// import todo2 from "public/images/todo2.png";
+// import mdEditor1 from "public/images/mdeditor1.png";
+// import mdEditor2 from "public/images/mdeditor2.png";
+// import fileManager1 from "public/images/filemanager1.png";
+// import fileManager2 from "public/images/filemanager2.png";
+// import fileSorting1 from "public/images/filesorting1.png";
+// import fileSorting2 from "public/images/filesorting2.png";
+// import gameDiscount1 from "public/images/gamediscount1.png";
+// import gameDiscount2 from "public/images/gamediscount2.png";
+// import gameDiscount3 from "public/images/gamediscount3.png";
+
+import Image from "next/image";
 
 export const products = [
   {
@@ -16,8 +18,8 @@ export const products = [
     github: true,
     title: "C QT Todo",
     description: "A simple todo app built with C++ and QT framework.",
-    thumbnail: todo1,
-    images: [todo1, todo2],
+    thumbnail: "/images/todo1.png",
+    images: ["/images/todo1.png", "/images/todo2.png"],
     stack: ["C++", "Qt"],
     slug: "todo",
     content: (
@@ -76,8 +78,8 @@ export const products = [
     github: true,
     title: "Markdown Editor",
     description: "A simple markdown editor built with Python and PyQt5.",
-    thumbnail: mdEditor1,
-    images: [mdEditor1, mdEditor2],
+    thumbnail: "/images/mdeditor1.png",
+    images: ["/images/mdeditor1.png", "/images/mdeditor2.png"],
     stack: ["Python", "PyQT5"],
     slug: "markdown-editor",
     content: (
@@ -133,8 +135,8 @@ export const products = [
     github: true,
     title: "File Manager",
     description: "A simple file manager built with Python and PyQt5.",
-    thumbnail: fileManager1,
-    images: [fileManager1, fileManager2],
+    thumbnail: "/images/filemanager1.png",
+    images: ["/images/filemanager1.png", "/images/filemanager2.png"],
     stack: ["Python", "PyQT5"],
     slug: "file-manager",
     content: (
@@ -202,8 +204,8 @@ export const products = [
     github: true,
     title: "File Sorting",
     description: "A simple file sorting app built with Python.",
-    thumbnail: fileSorting1,
-    images: [fileSorting1, fileSorting2],
+    thumbnail: "/images/filesorting1.png",
+    images: ["/images/filesorting1.png", "/images/filesorting2.png"],
     stack: ["Python"],
     slug: "file-sorting",
     content: (
@@ -277,8 +279,12 @@ export const products = [
     title: "Game Discount",
     description:
       "A game discount tracking app built with Next.js and Tailwind CSS.",
-    thumbnail: gameDiscount1,
-    images: [gameDiscount1, gameDiscount2, gameDiscount3],
+    thumbnail: "/images/gamediscount1.png",
+    images: [
+      "/images/gamediscount1.png",
+      "/images/gamediscount2.png",
+      "/images/gamediscount3.png",
+    ],
     stack: ["Next.js", "Tailwind CSS"],
     slug: "game-discount",
     content: (
