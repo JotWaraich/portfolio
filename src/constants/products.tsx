@@ -22,7 +22,7 @@ export const products = [
     slug: "todo",
     content: (
       <div>
-        <h2>🚀 Alpha Release v0.1 is Here!</h2>
+        <h2>🚀 Alpha Release v0.1.1 is Here!</h2>
         <p>
           We are excited to announce the first alpha release of our C QT Todo
           app! Packed with essential features, this release aims to provide a
