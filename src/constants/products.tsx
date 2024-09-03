@@ -72,63 +72,6 @@ export const products = [
     ),
   },
   {
-    href: "https://github.com/JotWaraich/Simple-Markdown-Editor",
-    github: true,
-    title: "Markdown Editor",
-    description: "A simple markdown editor built with Python and PyQt5.",
-    thumbnail: "/images/mdEditor1.png",
-    images: ["/images/mdEditor1.png", "/images/mdEditor2.png"],
-    stack: ["Python", "PyQT5"],
-    slug: "markdown-editor",
-    content: (
-      <div>
-        <h2>📝 Markdown Editor v1.0.0 Released!</h2>
-        <p>
-          We are thrilled to introduce the initial release of our Markdown
-          Editor—an intuitive and lightweight application designed to make
-          writing and previewing Markdown seamless. This release provides the
-          fundamental tools to help you get started with Markdown editing right
-          away.
-        </p>
-
-        <h3>✨ Key Features</h3>
-        <ul>
-          <li>
-            <strong>Basic File Operations:</strong> Easily open, save, and exit
-            files with a straightforward interface, built with PyQt5 for a clean
-            and modern look.
-          </li>
-          <li>
-            <strong>User-Friendly Interface:</strong> A simple, clutter-free
-            design that allows you to focus on writing without distractions.
-          </li>
-        </ul>
-
-        <h3>⚙️ Installation</h3>
-        <p>
-          Ready to get started? Download the executable file from the
-          &quot;Assets&quot; section from releases tab, extract the zip folder
-          and run it on your system. No complex setup required!
-        </p>
-
-        <h3>⚠️ Known Issues</h3>
-        <ul>
-          <li>
-            This is the initial release; some features might be limited or still
-            under development. Your feedback will be invaluable in shaping the
-            next version!
-          </li>
-        </ul>
-
-        <p>
-          We encourage you to try out the Markdown Editor and share your
-          thoughts, suggestions, or any bugs you encounter. Your input will help
-          us refine and expand the tool. Stay tuned for more updates!
-        </p>
-      </div>
-    ),
-  },
-  {
     href: "https://github.com/JotWaraich/file-manager",
     github: true,
     title: "File Manager",
@@ -193,6 +136,63 @@ export const products = [
           We encourage you to try out the File Manager, share your feedback, and
           help us refine it to be the best tool for managing files. Stay tuned
           for future updates and new features!
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://github.com/JotWaraich/Simple-Markdown-Editor",
+    github: true,
+    title: "Markdown Editor",
+    description: "A simple markdown editor built with Python and PyQt5.",
+    thumbnail: "/images/mdEditor1.png",
+    images: ["/images/mdEditor1.png", "/images/mdEditor2.png"],
+    stack: ["Python", "PyQT5"],
+    slug: "markdown-editor",
+    content: (
+      <div>
+        <h2>📝 Markdown Editor v1.0.0 Released!</h2>
+        <p>
+          We are thrilled to introduce the initial release of our Markdown
+          Editor—an intuitive and lightweight application designed to make
+          writing and previewing Markdown seamless. This release provides the
+          fundamental tools to help you get started with Markdown editing right
+          away.
+        </p>
+
+        <h3>✨ Key Features</h3>
+        <ul>
+          <li>
+            <strong>Basic File Operations:</strong> Easily open, save, and exit
+            files with a straightforward interface, built with PyQt5 for a clean
+            and modern look.
+          </li>
+          <li>
+            <strong>User-Friendly Interface:</strong> A simple, clutter-free
+            design that allows you to focus on writing without distractions.
+          </li>
+        </ul>
+
+        <h3>⚙️ Installation</h3>
+        <p>
+          Ready to get started? Download the executable file from the
+          &quot;Assets&quot; section from releases tab, extract the zip folder
+          and run it on your system. No complex setup required!
+        </p>
+
+        <h3>⚠️ Known Issues</h3>
+        <ul>
+          <li>
+            This is the initial release; some features might be limited or still
+            under development. Your feedback will be invaluable in shaping the
+            next version!
+          </li>
+        </ul>
+
+        <p>
+          We encourage you to try out the Markdown Editor and share your
+          thoughts, suggestions, or any bugs you encounter. Your input will help
+          us refine and expand the tool. Stay tuned for more updates!
         </p>
       </div>
     ),
