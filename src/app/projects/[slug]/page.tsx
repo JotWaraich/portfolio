@@ -24,9 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | John Doe",
-      description:
-        "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+      title: "Projects | Gurjagjot Waraich",
+      description: "Gurjagjot Waraich is a developer, writer and speaker.",
     };
   }
 }

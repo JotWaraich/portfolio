@@ -12,6 +12,77 @@
 
 export const products = [
   {
+    href: "https://github.com/JotWaraich/EatSmart",
+    github: true,
+    title: "EatSmart",
+    description: "A nutrition-focused app built with Flutter.",
+    thumbnail: "/images/EatSmartlogo.jpeg", // You can add actual images here
+    images: [
+      "/images/EatSmart01.png",
+      "/images/EatSmart02.png",
+      "/images/EatSmart03.png",
+    ],
+    stack: ["Flutter", "SQLite", "Dart"],
+    slug: "eatsmart",
+    content: (
+      <div>
+        <h2>🥗 EatSmart - Your Guide to Healthy Eating</h2>
+        <p>
+          EatSmart is a powerful nutrition-focused app, designed to help you
+          make informed choices about your diet. Built using{" "}
+          <strong>Flutter</strong>, the app provides features like food item
+          scanning, nutritional analysis, and tracking, to assist users in
+          managing their food intake and eating habits.
+        </p>
+
+        <h3>✨ Key Features</h3>
+        <ul>
+          <li>
+            <strong>Food Scanner:</strong> Quickly scan food products to view
+            their nutritional information, such as calories, protein, fats, and
+            more.
+          </li>
+          <li>
+            <strong>Track Your Diet:</strong> Keep a log of the food you eat
+            daily, tracking your calorie intake and macronutrients.
+          </li>
+          <li>
+            <strong>History and Analytics:</strong> View your eating history and
+            track progress towards your fitness and health goals.
+          </li>
+          <li>
+            <strong>Customizable Goals:</strong> Set personal health goals like
+            calorie limits or specific nutrition targets, and let EatSmart help
+            you stay on track.
+          </li>
+        </ul>
+
+        <h3>⚙️ How it Works</h3>
+        <p>
+          Simply scan the barcode of a food item using your phone’s camera, and
+          EatSmart will fetch and display its nutritional details. You can then
+          add the item to your daily food log and monitor your intake throughout
+          the day.
+        </p>
+
+        <h3>⚠️ Known Issues</h3>
+        <ul>
+          <li>
+            Some food products might not be available in the database. Future
+            updates will aim to improve the database and enhance product
+            coverage.
+          </li>
+        </ul>
+
+        <p>
+          Try out EatSmart and share your thoughts on how we can improve the
+          app. Your feedback is vital for making the app even more useful and
+          user-friendly!
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://github.com/JotWaraich/C-QT-Todo",
     github: true,
     title: "C QT Todo",

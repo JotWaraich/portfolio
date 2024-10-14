@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { createClient } from "@supabase/supabase-js";
 
 const defaultFormState = {
   name: {
@@ -15,6 +16,12 @@ const defaultFormState = {
     error: "",
   },
 };
+
+const supabase = createClient(
+  "https://xyzcompany.supabase.co",
+  "public-anon-key"
+);
+
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
 
