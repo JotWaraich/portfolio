@@ -12,6 +12,257 @@
 
 export const products = [
   {
+    href: "https://github.com/JotWaraich/GoShell",
+    github: true,
+    title: "GoShell",
+    description:
+      "A lightweight shell implemented in Go with basic file system operations and execution of external commands.",
+    thumbnail: "/images/goshell1.png", // Replace with actual image paths
+    images: ["/images/goshell1.png", "/images/goshell2.png"],
+    stack: ["Go", "CLI"],
+    slug: "goshell",
+    content: (
+      <div>
+        <h2>💻 GoShell - A Lightweight Terminal Shell</h2>
+        <p>
+          GoShell is a simple and efficient terminal shell written in Go that
+          supports basic file system operations and the execution of external
+          commands. It mimics the functionality of popular terminal applications
+          and includes commands like <code>ls</code>, <code>cd</code>,{" "}
+          <code>pwd</code>, <code>touch</code>, <code>mkdir</code>, and more.
+        </p>
+
+        <h3>✨ Features</h3>
+        <h4>File System Operations:</h4>
+        <ul>
+          <li>
+            <strong>List files:</strong> <code>ls</code>
+          </li>
+          <li>
+            <strong>Change directories:</strong> <code>cd</code>
+          </li>
+          <li>
+            <strong>Display current directory:</strong> <code>pwd</code>
+          </li>
+          <li>
+            <strong>Create files:</strong> <code>touch</code>
+          </li>
+          <li>
+            <strong>Create directories:</strong> <code>mkdir</code>
+          </li>
+          <li>
+            <strong>Remove files or directories:</strong> <code>rm</code>
+          </li>
+          <li>
+            <strong>Copy files or directories:</strong> <code>cp</code>
+          </li>
+          <li>
+            <strong>Move or rename files:</strong> <code>mv</code>
+          </li>
+          <li>
+            <strong>View file content:</strong> <code>cat</code>
+          </li>
+        </ul>
+
+        <h4>Utility Commands:</h4>
+        <ul>
+          <li>
+            <strong>Display a message:</strong> <code>echo</code>
+          </li>
+          <li>
+            <strong>Clear the terminal screen:</strong> <code>clear</code>
+          </li>
+          <li>
+            <strong>Display file or directory stats:</strong> <code>stat</code>
+          </li>
+          <li>
+            <strong>Change file permissions:</strong> <code>chmod</code>
+          </li>
+          <li>
+            <strong>Manual pages for commands:</strong> <code>man</code>
+          </li>
+        </ul>
+
+        <h4>External Commands:</h4>
+        <p>
+          GoShell supports running any external command not explicitly defined
+          (e.g., <code>go</code>, <code>python</code>, <code>git</code>).
+        </p>
+
+        <h4>Interactive Shell Loop:</h4>
+        <p>
+          GoShell offers continuous command execution with a user-friendly
+          prompt showing the current directory.
+        </p>
+
+        <h3>⚙️ How to Use</h3>
+        <p>To get started with GoShell:</p>
+        <ol>
+          <li>Clone the repository:</li>
+          <code>git clone https://github.com/JotWaraich/goshell.git</code>
+          <li>Navigate to the project directory:</li>
+          <code>cd goshell</code>
+          <li>Build the project:</li>
+          <code>go build -o goshell</code>
+          <li>Run the shell:</li>
+          <code>./goshell</code>
+          <li>
+            <strong>
+              Alternatively, you can download the pre-built .exe file as a
+              prerelease from the Releases tab on GitHub:
+            </strong>
+          </li>
+          <p>
+            Visit the{" "}
+            <a href="https://github.com/JotWaraich/GoShell/releases">
+              GoShell Releases
+            </a>{" "}
+            page, and download the latest .exe file.
+          </p>
+        </ol>
+
+        <h3>📄 Command Reference</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>ls</code>
+              </td>
+              <td>Lists files and directories in the current directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>cd</code>
+              </td>
+              <td>Changes the current directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>pwd</code>
+              </td>
+              <td>Prints the current working directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>touch</code>
+              </td>
+              <td>Creates a new empty file.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>mkdir</code>
+              </td>
+              <td>Creates a new directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>rm</code>
+              </td>
+              <td>
+                Removes a file or directory. Use <code>/f</code> for force.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>cat</code>
+              </td>
+              <td>Displays the content of a file.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>echo</code>
+              </td>
+              <td>Prints a message to the screen.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>clear</code>
+              </td>
+              <td>Clears the terminal screen.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>cp</code>
+              </td>
+              <td>Copies a file or directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>mv</code>
+              </td>
+              <td>Moves or renames a file or directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>chmod</code>
+              </td>
+              <td>Changes the permissions of a file.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>stat</code>
+              </td>
+              <td>Displays detailed information about a file or directory.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>man</code>
+              </td>
+              <td>Displays a brief manual for a command.</td>
+            </tr>
+            <tr>
+              <td>
+                <code>exit</code>
+              </td>
+              <td>Exits the shell.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>📂 Project Structure</h3>
+        <ul>
+          <li>
+            <code>main.go</code>: Contains the implementation of the shell.
+          </li>
+          <li>
+            <code>Commands</code>: Implemented as switch cases for easy
+            extensibility.
+          </li>
+        </ul>
+
+        <h3>🚀 Future Enhancements</h3>
+        <ul>
+          <li>
+            Add support for pipes (<code>|</code>) and redirections (
+            <code>&gt;</code>, <code>&gt;&gt;</code>, <code>&lt;</code>).
+          </li>
+          <li>Implement autocomplete for commands and paths.</li>
+          <li>
+            Support background tasks with <code>&</code>.
+          </li>
+        </ul>
+
+        <h3>🤝 Contributing</h3>
+        <p>
+          Contributions are welcome! Feel free to submit a pull request or open
+          an issue.
+        </p>
+
+        <h3>📄 License</h3>
+        <p>
+          This project is licensed under the MIT License. See the{" "}
+          <code>LICENSE</code> file for details.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://github.com/JotWaraich/EatSmart",
     github: true,
     title: "EatSmart",
